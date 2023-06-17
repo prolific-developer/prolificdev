@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* header section starts here */
+.main{
+    height: 600px;
+    width: 100%;
+    background: url(best-websites.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.navbar{
+    padding: 10px;
+    background-image:linear-gradient(rgb(215, 151, 14), rgb(213, 95, 16));
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    height: 70px;
+
+}
+
+.navbar ul{
+    display:flex;
+    float: right;
+    padding: 20px 0;
+    list-style: none;
+    font-size: larger;
+    
+    
+    
+}
+
+.navbar ul li a{ 
+ text-decoration:none ;
+ margin: 0 40px;
+ color:white;
+
+}
+
+.navbar ul li a:hover{
+    color:purple;
+    
+}
+.logo{
+    padding-left: 10%;
+}
+.logo i{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.logo span{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+/* header section ends here */
+
+
+/* About section starts here */
+
+.About{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    
+}
+.text{
+   width: 50%;
+   padding-right:  5%; 
+   text-align: justify;
+   line-height: 2;
+
+
+}
+
+.text h1{
+    text-align: center;
+    color: black;
+}
+
+.image{
+    height:400px ;
+    width: 70%;
+}
+
+.image img{
+    height: 500px;
+    width: 80%;
+
+}
+/* About section ends here */
+
+
+/* work section starts here */
+.work{
+    background-image:linear-gradient(rgb(215, 151, 14), rgb(213, 95, 16));
+    height: 420px;
+    font-size: 18px;
+    line-height: 2;
+
+}
+
+.work h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(14, 14, 14);
+    
+}
+
+.work p{
+    padding: 0 30px;
+    color: black;
+}
+/* work section ends here */
+
+/* resume section starts here */
+.resume{
+    display: flex;
+    height: 550px;
+    justify-content: space-around;
+    background-color:whitesmoke;
+
+     
+}
+
+.images{
+    height: 400px;
+    width: 80%;
+}
+
+.images img{
+    height: 550px;
+    width:80% ;
+}
+
+.content{
+    width: 50%;
+    padding-right: 5%;
+    text-align: justify;
+    line-height:30px ;
+
+}
+
+.content h1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+}
+/* resume section ends here */
+
+
+/* contact section starts here */
+
+.row{ 
+    height: 400px;
+    background-image:linear-gradient(rgb(215, 151, 14), rgb(213, 95, 16));
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sub-title{
+    font-size: 30px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.contact-left i{
+    color: #fff;
+    padding: 10px ;
+}
+.contact-left p{
+    padding: 10px 0;
+}
+.contact-left span{
+    margin: left 10px;
+}
+
+.contact-right{
+    flex-basis: 40%;
+
+}
+
+.contact-right form{
+    width: 100%;
+    padding: 30px 0;
+}
+
+form label, form input{
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #fff;
+    color: blue;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color:rgb(53, 31, 77);
+    color: #fff;
+    transition: 0.5s;
+}
+/* contact section ends here */
+
+
+/* footer section starts here */
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 200px;
+}
+
+.logo1{
+    padding: 30px 0;
+    font-size: 35px;
+}
+.logo1 span{
+    color:black;
+    font-weight: 700;
+}
+
+.shortlink{
+    margin-top: 50px;
+
+}
+
+.shortlink li{
+    list-style: none;
+    padding:5px 0;
+
+}
+
+.shortlink li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 23px;
+}
+.icons i{
+    color: black;
+    padding: 15px 0;
+}
+
+/* footer-section ends here */
